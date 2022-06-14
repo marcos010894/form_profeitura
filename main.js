@@ -155,9 +155,7 @@ const impress = () => {
     </html>
     
     `);
-    setTimeout(() => {
-        tela_impressao.window.print();
-    }, 2000)
+    tela_impressao.window.print();
 }
 
 
