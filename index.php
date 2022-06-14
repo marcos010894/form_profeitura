@@ -29,8 +29,14 @@
 
           <div class="row justify-content-center">
             <div class="col-md-6">
-              <h3 class="heading mb-4">EDITAL PROCESSO SELETIVO ACS-2022</h3>
-              <p>Digite o numero da sua inscrição para gerar a carta comprovante de inscrição com a sala em que irá fazer a prova. assim que você clicar em buscar, o sistema ira buscar o seus dados.</p>
+              <h3 class="heading mb-4">Processo Seletivo ACS 2022</h3>
+              <p id="texto_candidato">Prezado Candidato (a),
+
+                Por favor, inserir o número de inscrição no campo ao lado, em seguida clicar em BUSCAR.
+
+                Após você irá clicar para IMPRIMIR.
+              </p>
+              
 
               <p><img src="images/undraw-contact.svg" alt="Image" class="img-fluid"></p>
 

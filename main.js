@@ -129,23 +129,27 @@ const impress = () => {
             </div>
     
             <div class="title" style="background-color: green;">
-                <h3>Cartão de confirmação de incrição</h3>
-                <h3>processo seletivo 2022</h3>
+                <h4>CARTÃO DE CONFIRMAÇÃO DE INSCRIÇÃO <br>
+                PROCESSO SELETIVO - AGENTE COMUNITÁRIO DE SAÚDE - ACS/2022 - ÁGUIA BRANCA/ES</h4>
             </div>
             <div class="dados_pessoa">           
                 <div><h4> Nome:${candidato} </h4></div>
                 <div><h4> Numero da inscrição: ${inscrição} </h4></div>
             </div>
     
-            <div class="title_dados"><h3> Dados sobre a prova. </h3></div>
+            <div class="title_dados"><h4> ORIENTAÇÕES SOBRE A REALIZAÇÃO DA PROVA OBJETIVA </h4></div>
     
             <div class="dados_local">      
                 <div><h4> Data da prova: 08/06/2022 </h4></div>
-                <div><h4> Horario da prova: 08:00 </h4></div>
+                <div><h4> Horario da prova: 09:00 </h4></div>
                 <div><h4> Sala número: ${sala} </h4></div>
             </div>
             <center>
-                Prefeitura Municipal de Águia Branca/ES - localizada na Rua Vicente Pissinati, n° 71, Centro, Águia Branca/ES
+                Local da prova: <br>
+                EMEF "Padre Sérgio Banzza" - R. Benjamin Galdino de Ávila, 172-246 - Águia Branca, ES, 29795-000 <hr>
+                Orientações no dia da Prova <br>
+
+                O candidato deve verificar o horário de acesso às salas de prova, portar caneta esferográfica de tinta azul, fabricada em material transparente, levar o comprovante de inscrição e documento de identidade original.
             </center>
         </div>
     </body>
@@ -155,4 +159,14 @@ const impress = () => {
     tela_impressao.window.print();
 }
 
+
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    document.getElementById('texto_candidato').innerHTML = `
+    Prezado Candidato (a),
+
+        Por favor, inserir o número de inscrição no campo abaixo, em seguida clicar em BUSCAR.
+
+        Após você irá clicar para IMPRIMIR.
+    `
+  }
 
