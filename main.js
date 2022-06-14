@@ -148,7 +148,6 @@ const impress = () => {
                 Local da prova: <br>
                 EMEF "Padre Sérgio Banzza" - R. Benjamin Galdino de Ávila, 172-246 - Águia Branca, ES, 29795-000 <hr>
                 Orientações no dia da Prova <br>
-
                 O candidato deve verificar o horário de acesso às salas de prova, portar caneta esferográfica de tinta azul, fabricada em material transparente, levar o comprovante de inscrição e documento de identidade original.
             </center>
         </div>
