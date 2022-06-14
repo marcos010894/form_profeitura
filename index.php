@@ -64,7 +64,7 @@
 
   </div>
   <footer style="text-align: center; padding: 5px;">
-    desenvolvido por <a style="color: blue;" href="https://www.instagram.com/marcos.ma_/">Marcos paulo Machado Azevedo.</a>
+    Desenvolvido por <a style="color: blue;" href="https://www.instagram.com/marcos.ma_/">Marcos paulo Machado Azevedo.</a>
   </footer>
     
     <!-- Modal -->
