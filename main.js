@@ -63,7 +63,7 @@ const impress = () => {
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Prefeitura municipal de Águia branca!</title>
+        <title>CARTÃO DE CONFIRMAÇÃO DE INSCRIÇÃO</title>
         <style>
             body{
                 -webkit-print-color-adjust: exact;
@@ -130,7 +130,7 @@ const impress = () => {
     
             <div class="title" style="background-color: green;">
                 <h4>CARTÃO DE CONFIRMAÇÃO DE INSCRIÇÃO <br>
-                PROCESSO SELETIVO - AGENTE COMUNITÁRIO DE SAÚDE - ACS/2022 - ÁGUIA BRANCA/ES</h4>
+                PROCESSO SELETIVO - AGENTE COMUNITÁRIO DE SAÚDE - ACS/2022 <br> ÁGUIA BRANCA/ES</h4>
             </div>
             <div class="dados_pessoa">           
                 <div><h4> Nome:${candidato} </h4></div>
@@ -140,7 +140,7 @@ const impress = () => {
             <div class="title_dados"><h4> ORIENTAÇÕES SOBRE A REALIZAÇÃO DA PROVA OBJETIVA </h4></div>
     
             <div class="dados_local">      
-                <div><h4> Data da prova: 08/06/2022 </h4></div>
+                <div><h4> Data da prova: 19/06/2022 </h4></div>
                 <div><h4> Horario da prova: 09:00 </h4></div>
                 <div><h4> Sala número: ${sala} </h4></div>
             </div>
@@ -155,7 +155,9 @@ const impress = () => {
     </html>
     
     `);
-    tela_impressao.window.print();
+    setTimeout(() => {
+        tela_impressao.window.print();
+    }, 2000)
 }
 
 
