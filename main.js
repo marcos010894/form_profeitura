@@ -5,6 +5,8 @@ var sala = 0
 
 const verify_dados = async () => {
     let number = document.getElementById('number').value; 
+    document.getElementById('footerModal').style.display = 'none';
+
     document.getElementById('get').innerHTML = `<img src="images/loading.gif" alt="">`
     let encontrado = false
     var jsonDate = await(
