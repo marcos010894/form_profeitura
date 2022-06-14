@@ -131,8 +131,8 @@ const impress = () => {
                 <h3>processo seletivo 2022</h3>
             </div>
             <div class="dados_pessoa">           
-                <div><h4> Nome: pessoa nome </h4></div>
-                <div><h4> Numero da inscrição: pessoa nome </h4></div>
+                <div><h4> Nome:${candidato} </h4></div>
+                <div><h4> Numero da inscrição: ${inscrição} </h4></div>
             </div>
     
             <div class="title_dados"><h3> Dados sobre a prova. </h3></div>
@@ -140,7 +140,7 @@ const impress = () => {
             <div class="dados_local">      
                 <div><h4> Data da prova: 08/06/2022 </h4></div>
                 <div><h4> Horario da prova: 08:00 </h4></div>
-                <div><h4> Sala número: 2 </h4></div>
+                <div><h4> Sala número: ${sala} </h4></div>
             </div>
             <center>
                 Prefeitura Municipal de Águia Branca/ES - localizada na Rua Vicente Pissinati, n° 71, Centro, Águia Branca/ES
