@@ -41,7 +41,7 @@
               <form class="mb-5" method="post" id="contactForm" name="contactForm">
                 <div class="row">
                   <div class="col-md-12 form-group">
-                    <input type="number" class="form-control" name="number" id="number" placeholder="Ex: 215">
+                    <input type="number" class="form-control" name="number" id="number" placeholder="Número inscrição ex: 215">
                   </div>
                 </div>
                 <div class="row">
